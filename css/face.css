@@ -1,0 +1,178 @@
+body{
+    position:relative;
+    background-color:#faf7eb;
+}
+
+/*Expore it Button*/
+.btn-outline-inverse{
+    color:#FAF7EB;
+    background-color:transparent;
+    border-color:#FAF7EB
+}
+
+.btn-outline-inverse:hover,
+.btn-outline-inverse:focus,
+.btn-outline-inverse:active{
+    color:#333;
+    text-shadow:none;
+    background-color:#faf7eb;
+    border-color:#fff
+}
+
+
+/*Calender button*/
+.yoi-home-booticon{
+    display:block;
+    font-weight:500;
+    color:#fff;
+    border-radius:15%;
+    cursor:default;
+    text-align:center
+}
+
+.yoi-home-booticon-lg{
+    width:144px;
+    height:144px;
+    font-size:108px;
+    line-height:140px
+}
+
+.yoi-home-booticon-outline{
+    background-color:transparent;
+    border:2px solid #faf7eb
+}
+
+
+/*Nav bar*/
+.yoi-home-nav{
+    margin-bottom:0;
+    background-color:#faf7eb;
+    border-bottom:0}
+
+.yoi-home-nav .navbar-brand,
+.yoi-home-nav .navbar-nav>li>a{
+    color:#563d7c;
+    font-weight:500}
+.yoi-home-nav .navbar-nav>li>a:hover,
+.yoi-home-nav .navbar-nav>.active>a,
+.yoi-home-nav .navbar-nav>.active>a:hover{
+    color:#463265;
+    background-color:#f9f9f9
+}
+.yoi-home-nav .navbar-toggle .icon-bar{
+    background-color:#563d7c
+}
+.yoi-home-nav .navbar-header .navbar-toggle{
+    border-color:#fff
+}
+.yoi-home-nav .navbar-header .navbar-toggle:hover,
+.yoi-home-nav .navbar-header .navbar-toggle:focus{
+    background-color:#f9f9f9;
+    border-color:#f9f9f9
+}
+
+
+/*footer*/
+.yoi-home-footer{
+    padding-bottom:40px;
+    margin-top:100px;
+    color:#333;
+    text-align:center;
+}
+
+
+@media (min-width:768px){
+    .yoi-home-footer p{
+    margin-bottom:0}
+}
+
+.yoi-home-window,
+.yoi-home-header{
+    position:relative;
+    padding:30px 15px;
+    color:#cdbfe3;
+    text-align:center;
+    text-shadow:0 1px 0 rgba(0,0,0,.1);
+    background-color:#7f0019;
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#563d7c', endColorstr='#6F5499', GradientType=0)}
+.yoi-home-window .yoi-home-booticon{
+    margin:0 auto 30px}
+.yoi-home-window h1{
+    font-weight:300;
+    line-height:1;
+    color:#fff}
+.yoi-home-window .lead{
+    margin:0 auto 30px;
+    font-size:20px;
+    color:#fff}
+.yoi-home-window{
+    margin-top:-15px;
+    margin-bottom:30px;
+    color:#9783b9;
+}
+.yoi-home-window .btn{
+    width:100%;
+    padding:15px 30px;
+    font-size:20px}
+@media (min-width:480px){
+    .yoi-home-window .btn{
+    width:auto}
+}
+
+@media (min-width:768px){
+    .yoi-home-window{
+    padding-top:80px;
+    padding-bottom:80px}
+.yoi-home-window h1{
+    font-size:60px}
+.yoi-home-window .lead{
+    font-size:24px}
+}
+
+@media (min-width:992px){
+    .yoi-home-window .lead{
+    width:80%;
+    font-size:30px}
+}
+.yoi-home-header{
+    margin-bottom:40px;
+    font-size:20px}
+.yoi-home-header h1{
+    margin-top:0;
+    color:#fff}
+.yoi-home-header p{
+    margin-bottom:0;
+    font-weight:300;
+    line-height:1.4}
+.yoi-home-header .container{
+    position:relative
+}
+
+@media (min-width:768px){
+    .yoi-home-header{
+        padding-top:60px;
+        padding-bottom:60px;
+        font-size:24px;
+        text-align:left
+}
+
+.yoi-home-header h1{
+    font-size:60px;
+    line-height:1}
+}
+
+@media (min-width:992px){
+    .yoi-home-header h1,
+    .yoi-home-header p{
+    margin-right:380px
+    }
+}
+
+btn-outline-inverse:hover{
+    color: #faf7eb;
+}
+
+.yoi-dropdown{
+    border: 0;
+    background-color: #FAF7EB;
+}
